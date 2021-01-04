@@ -41,3 +41,23 @@ print("Kotlin is a cool programming language!")
  var word2 = "Hello world"
  print(word1[0])
  ```
+
+ ## [Lesson 3: Variables](#lesson3)
+
+In Python, a variable is a symbolic name that is a reference or pointer to an object. In other words, a variable is a reserved memory location to store value. There is no need to declare variable's type, but variables need to be assigned a value or 'None'. Any variable may also be assigned a value of one type and then later re-assigned a value of a different type:
+
+ ```python
+ >>> x = 5
+ >>> x = "five"
+ >>> y = None
+ ```
+
+In Kotlin variables are introduced using either val or var. Variables that are defined using keyword val are immutable, whereas variables defined with var are mutable and can be re-assigned a value. Kotlin is statically typed programming language, which means that variables need to be defined before they are used. The type of the variable is usually inferred. You can give the type of the variable, but it is nesessary only when the variable's value is not given immediately.
+
+```kotlin
+ val x = 5
+ var y: String
+ var z = 5.0
+ y = "five"
+ ```
+
