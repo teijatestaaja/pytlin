@@ -61,3 +61,34 @@ In Kotlin variables are introduced using either val or var. Variables that are d
  y = "five"
  ```
 
+## [Lesson 4: Comments](#lesson4)
+
+In Python, comments are written using #. Python does not really have a syntax for multi line comments, so # needs to be added on each line:
+
+```python
+# Example of a one line comment
+
+# Example of a comment
+# written in
+# more than just one line,
+```
+
+Multiline strings can be used as comments, since Python will ignore string literals that are not assigned to a variable:
+
+```python
+"""
+Example of a comment
+written in
+more than just one line.
+"""
+```
+
+ Kotlin supports single-line (or end-of-line) and multi-line (block) commenting:
+```kotlin
+// Example of an end-of-line comment
+
+/* Example of a block comment
+   on multiple lines. */
+ ```
+
+
